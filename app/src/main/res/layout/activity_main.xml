@@ -4,38 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_magic"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="324dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="24dp"
-        android:layout_marginTop="24dp"
-        android:text="¿Quieres conocer tu destino?"
-        android:textColor="#2980B9"
-        android:textStyle="italic|bold"
-
-         />
-
-    <ImageView
-        android:id="@+id/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="¿Quieres conocer tu destino?"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="italic|bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/boton"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
         android:layout_marginTop="48dp"
-        app:srcCompat="@drawable/ball" />
+        app:srcCompat="@drawable/magic_ball_png_12" />
 
     <TextView
         android:id="@+id/respuesta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="60dp"
         android:text="..."
-        android:textColor="#EC7063"
+        android:textColor="#FFFFFF"
         android:textSize="32dp"
-        android:textStyle="italic|bold"
+        android:textStyle="italic|bold" />
 
-</Linear>
+
+</LinearLayout>
